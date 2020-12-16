@@ -24,6 +24,7 @@ const Player = ({currentSong,setCurrentSong, isPlaying, setIsPlaying, audioRef, 
             }
         })
         setSongs(newSongs)
+        
     },[currentSong]);
 
     //Event Handlers
